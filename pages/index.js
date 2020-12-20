@@ -5,6 +5,7 @@ import { useState } from 'react';
 
 import en from '../locales/en';
 import fr from '../locales/fr';
+import ViewSource from '../components/github';
 
 export default function IndexPage() {
   const [showBanner, setBanner] = useState(true);
@@ -14,6 +15,7 @@ export default function IndexPage() {
 
   return (
     <main>
+      <ViewSource />
       <div className="hero">
         <div className="bg-image">
           <span className="bg-black opacity-40 absolute w-full h-full z-10" />
@@ -30,10 +32,10 @@ export default function IndexPage() {
           <nav aria-label="breadcrumb">
             <ol className="flex space-x-2 text-white text-sm mb-8 text-shadow">
               <li>
-                <a href="#">Science ></a>
+                <a href="#">{'Science >'}</a>
               </li>
               <li>
-                <a href="#">Computing ></a>
+                <a href="#">{'Computing >'}</a>
               </li>
               <li>Birth web</li>
             </ol>

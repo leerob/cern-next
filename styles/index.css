@@ -1,23 +1,22 @@
 @tailwind base;
-
-/* Write your own custom base styles here */
-
-/* Start purging... */
 @tailwind components;
-/* Stop purging. */
-
-html,
-body {
-  @apply bg-gray-50 dark:bg-gray-900;
-}
-
-/* Write your own custom component styles here */
-.btn-blue {
-  @apply px-4 py-2 font-bold text-white bg-blue-500 rounded;
-}
-
-/* Start purging... */
 @tailwind utilities;
-/* Stop purging. */
 
-/* Your own custom utilities */
+.text-shadow {
+  text-shadow: 1px 0px 1px black, 0px 1px 1px black, -1px 0px 1px black,
+    0px -1px 1px black, 0 0 1px black;
+}
+
+.text-shadow-sm {
+  text-shadow: 0px 0px 0.8px black, 0px 0px 0.8px black, 0px 0px 0.8px black,
+    0px 0px 0.8px black, 0 0 0.8px black;
+}
+
+.hero {
+  height: 800px;
+}
+
+.bg-image {
+  @apply absolute h-full w-full -z-10;
+  max-height: 800px;
+}

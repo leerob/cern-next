@@ -1,6 +1,6 @@
-# Tailwind CSS example
+# CERN (Next.js + Tailwind Demo)
 
-This is an example of using [Tailwind CSS](https://tailwindcss.com) in a Next.js project.
+The 30th anniversary of the web [post by CERN](https://home.cern/science/computing/birth-web) could [use some improvement](https://twitter.com/rauchg/status/1340695034480349185). Used this as an opportunity to mess with Tailwind CSS.
 
 ## Deploy your own
 

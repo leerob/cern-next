@@ -1,10 +1,14 @@
+const colors = require('tailwindcss/colors');
+
 module.exports = {
   purge: ['./components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
-  darkMode: 'media', // 'media' or 'class'
   theme: {
     extend: {
+      zIndex: {
+        '-10': '-10',
+      },
       colors: {
-        'accent-1': '#333',
+        gray: colors.warmGray,
       },
     },
   },
@@ -12,4 +16,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-}
+};

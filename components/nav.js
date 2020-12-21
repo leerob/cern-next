@@ -12,7 +12,7 @@ export default function Nav() {
 
   const changeLanguage = (e) => {
     const locale = e.target.value;
-    router.push('/', '/', { locale });
+    router.push(router.pathname, router.asPath, { locale });
   };
 
   return (

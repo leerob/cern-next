@@ -24,7 +24,7 @@ export default function IndexPage() {
             src="/hero.jpg"
             layout="fill"
             objectFit="cover"
-            loading="eager"
+            priority
           />
         </div>
         <Nav />

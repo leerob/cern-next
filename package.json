@@ -8,6 +8,7 @@
     "export": "next export"
   },
   "dependencies": {
+    "lodash": "^4.17.21",
     "next": "latest",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
